@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyD&D - Информация</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        
+        <header class="container">
+            <span class="logo"><img src="img/Logo.svg" alt="Logo"></span>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Главная</a></li>
+                    <li><a href="/characters.html">Персонажи</a></li>
+                    <li class="active"><a href="#">Информация</a></li>
+                    <li class="btn"><a href="#"><img src="img/ForestTheme.svg" alt="ForestTheme"></a></li>
+                    <li class="btn"><a href="#"><img src="img/AshTheme.svg" alt="AshTheme"></a></li>
+                    <li class="btn"><a href="#"><img src="img/RedMoonTheme.svg" alt="RedMoonTheme"></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="author container" id="AuthorInfo">
+            <div class="author--info">
+                <h2>Автор</h2>
+                <h1>Сайт разработал:</h1>
+                <img src="img/Author.jpg" alt="Author" class="float-right">
+                <p>Студент группы: ИСТбд-31 <br> Зуев Степан Алексеевич</p>
+                <p><strong>Дата разработки:</strong> 2024</p>
+                <p><strong>Используемые технологии:</strong> HTML5, CSS3, JavaScript</p>
+            </div>
+        </div>
+
+        <!-- НОВАЯ ТАБЛИЦА: Издания D&D -->
+        <div class="editions-table container">
+            <h2>Издания Dungeons & Dragons</h2>
+            <table class="dnd-editions">
+                <thead>
+                    <tr>
+                        <th>Издание</th>
+                        <th>Год выпуска</th>
+                        <th>Особенности</th>
+                        <th>Сложность</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Original D&D</td>
+                        <td>1974</td>
+                        <td>Первое издание, очень простое</td>
+                        <td>Низкая</td>
+                    </tr>
+                    <tr>
+                        <td>AD&D 1e</td>
+                        <td>1977</td>
+                        <td>Более сложные правила</td>
+                        <td>Высокая</td>
+                    </tr>
+                    <tr>
+                        <td>AD&D 2e</td>
+                        <td>1989</td>
+                        <td>Упрощение, больше настроек</td>
+                        <td>Средняя</td>
+                    </tr>
+                    <tr>
+                        <td>D&D 3e</td>
+                        <td>2000</td>
+                        <td>Система d20, много возможностей</td>
+                        <td>Высокая</td>
+                    </tr>
+                    <tr>
+                        <td>D&D 4e</td>
+                        <td>2008</td>
+                        <td>Тактический бой, MMORPG-стиль</td>
+                        <td>Средняя</td>
+                    </tr>
+                    <tr>
+                        <td>D&D 5e</td>
+                        <td>2014</td>
+                        <td>Упрощение, доступность, баланс</td>
+                        <td>Низкая</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="sites container" id="HelpWeb">
+            <h2>Полезные сайты</h2>
+            <div class="inside">
+                <a href="https://dnd.su/" class="block" target="_blank" rel="noopener noreferrer">
+                    <img src="img/Dice.svg" alt="dnd.su">
+                    <h1>DnD.su</h1>
+                    <span>Онлайн справочник</span>
+                </a>
+
+                <a href="https://longstoryshort.app" class="block" target="_blank" rel="noopener noreferrer">
+                    <img src="img/Lonstoryshort.svg" alt="longstoryshort">
+                    <h1>longstoryshort.app</h1>
+                    <span>Интерактивный лист персонажа</span>
+                </a>
+
+                <a href="https://www.dungeonscrawl.com" class="block" target="_blank" rel="noopener noreferrer">
+                    <img src="img/Dungeonscrawl.svg" alt="dungeonscrawl">
+                    <h1>dungeonscrawl.com</h1>
+                    <span>Сайт для создания карт</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>

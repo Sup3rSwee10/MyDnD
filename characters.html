@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyD&D - Персонажи</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        
+        <header class="container">
+            <span class="logo"><img src="img/Logo.svg" alt="Logo"></span>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Главная</a></li>
+                    <li class="active"><a href="/characters.html">Персонажи</a></li>
+                    <li><a href="/Info.html">Информация</a></li>
+                    <li class="btn"><a href="#"><img src="img/ForestTheme.svg" alt="ForestTheme"></a></li>
+                    <li class="btn"><a href="#"><img src="img/AshTheme.svg" alt="AshTheme"></a></li>
+                    <li class="btn"><a href="#"><img src="img/RedMoonTheme.svg" alt="RedMoonTheme"></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hero1-char container" id="torling">
+            <h2>Список персонажей</h2>
+            <div class="charcard">
+                <div class="char-info">
+                    <h1>Торлинг Эйкатра</h1>
+                    <img src="img/CharlistTorling.svg" alt="Torling" class="float-right">
+                    <p><strong>Раса:</strong> Фирболг</p>
+                    <p><strong>Класс:</strong> Друид</p>
+                    <p><strong>Подкласс:</strong> Круг луны</p>
+                    <p><strong>Предыстория:</strong></p>
+                    <p>Торлинг Эйкатра происходит из древнего рода стражей священного леса. Когда-то в этом лесу кипела жизни и повсюду текла магия. В каждой веточке и каждом живом существе. Род друидов Эйкатра тысячилетиями защищал эту священную землю.</p>
+                    <button class="btn download-btn">Скачать лист персонажа</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero2-char container" id="tak-tha">
+            <div class="charcard">
+                <div class="char-info">
+                    <h1>Так-тха</h1>
+                    <img src="img/CharlistTatTha.svg" alt="Tak-Tha" class="float-left">
+                    <p><strong>Раса:</strong> Три-Крин</p>
+                    <p><strong>Класс:</strong> Следопыт</p>
+                    <p><strong>Подкласс:</strong> Хранитель роя</p>
+                    <p><strong>Предыстория:</strong></p>
+                    <p>Так-тха был лучшим охотником своего выводка. Его умение сливаться с окружающей средой и управлять роем насекомых делало его практически невидимым в лесу. Когда древнее зло вторглось в его родные земли, Так-тха поклялся защищать природу и все живые существа.</p>
+                    <button class="btn download-btn">Скачать лист персонажа</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero3-char container" id="brag">
+            <div class="charcard">
+                <div class="char-info">
+                    <h1>Браг Камнешаг</h1>
+                    <img src="img/CharlistBrag.svg" alt="Brag" class="float-right">
+                    <p><strong>Раса:</strong> Голиаф</p>
+                    <p><strong>Класс:</strong> Паладин</p>
+                    <p><strong>Подкласс:</strong> Клятва короны</p>
+                    <p><strong>Предыстория:</strong></p>
+                    <p>Браг вырос в деревне высоко в горах. В какой-то момент, движимый чувством справедливости, он ушёл в ближайшее крупное королевство. Там он присягнул на верность короне, поклявшись охранять и чтить закон. Его непоколебимая воля и стальная броня делают его непобедимым защитником слабых.</p>
+                    <button class="btn download-btn">Скачать лист персонажа</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- НОВАЯ ТАБЛИЦА: Характеристики персонажей -->
+        <div class="stats-table container">
+            <h2>Характеристики персонажей</h2>
+            <table class="characters-table">
+                <thead>
+                    <tr>
+                        <th>Персонаж</th>
+                        <th>Сила</th>
+                        <th>Ловкость</th>
+                        <th>Телосложение</th>
+                        <th>Интеллект</th>
+                        <th>Мудрость</th>
+                        <th>Харизма</th>
+                        <th>Уровень</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Торлинг Эйкатра</td>
+                        <td>10</td>
+                        <td>14</td>
+                        <td>16</td>
+                        <td>12</td>
+                        <td>18</td>
+                        <td>10</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Так-тха</td>
+                        <td>12</td>
+                        <td>18</td>
+                        <td>14</td>
+                        <td>10</td>
+                        <td>16</td>
+                        <td>8</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Браг Камнешаг</td>
+                        <td>18</td>
+                        <td>10</td>
+                        <td>16</td>
+                        <td>8</td>
+                        <td>14</td>
+                        <td>16</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="8">* Все характеристики указаны с учетом расовых и прочих бонусов</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
