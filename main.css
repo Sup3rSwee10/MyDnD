@@ -1,5 +1,3 @@
-/* main.css - Полный стиль для сайта MyD&D */
-
 /* ===== ОБЩИЕ СТИЛИ ===== */
 * {
     margin: 0;
@@ -1345,4 +1343,5 @@ body.loading-page::after {
         border: 1px solid #000 !important;
         color: #000 !important;
     }
+
 }
