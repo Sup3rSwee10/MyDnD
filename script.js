@@ -1,5 +1,3 @@
-// main.js - с функционалом скачивания файлов и обработкой таблиц
-
 // 1. ЧАСЫ В ЗАГОЛОВКЕ
 function initClock() {
     function updateTitleClock() {
@@ -15,7 +13,7 @@ function initClock() {
     setInterval(updateTitleClock, 1000);
 }
 
-// 2. ТЕМЫ - ИСПРАВЛЕННЫЙ КОД
+// 2. ТЕМЫ
 function initThemes() {
     console.log('Инициализация тем...');
     
@@ -304,7 +302,7 @@ function initDatePopup() {
     console.log('Кнопка даты добавлена');
 }
 
-// 4. СКАЧИВАНИЕ ФАЙЛОВ ПЕРСОНАЖЕЙ - ИСПРАВЛЕНО
+// 4. СКАЧИВАНИЕ ФАЙЛОВ ПЕРСОНАЖЕЙ
 function initDownloads() {
     console.log('Инициализация скачивания файлов...');
     
@@ -370,8 +368,6 @@ function initDownloads() {
     });
     
     function checkFileExists(url) {
-        // В реальном проекте здесь был бы AJAX-запрос
-        // Для демонстрации предположим, что файлы существуют
         return true;
     }
     
